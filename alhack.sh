@@ -8,9 +8,8 @@ echo -e '\033[31;40;1m
  ██╔══██║██║     ╚══════╝   ██║   ██║   ██║██║   ██║██║
  ██║  ██║███████╗           ██║   ╚██████╔╝╚██████╔╝███████╗
  ╚═╝  ╚═╝╚══════╝           ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝ v3
-  Coded by mrAurel
-  ig: _.aurel_vllahi
-  github: https://github.com/mrAurel
+  Coded by 4lbH4cker
+  github: https://github.com/4lbH4cker
 \033[33;4mVersion:\033[0m 3            \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m mrAurel
 
 \e[37m[1]\e[36m Kërkesat & Përditësimi        \e[37m[2]\e[36m Phishing Tool				
