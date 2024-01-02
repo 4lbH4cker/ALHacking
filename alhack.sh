@@ -20,6 +20,7 @@ echo -e '\033[31;40;1m
 \e[37m[11]\e[36m ghost_eye                    \e[37m[12]\e[36m RED_HAWK
 \e[37m[13]\e[36m VirusCrafter                 \e[37m[14]\e[36m Info-Site
 \e[37m[15]\e[36m BadMod	                  \e[37m[16]\e[36m Facebash
+\e[37m[17]\e[36m DARKARMY                     \e[37m[18]\e[36m N-ANOM
 '
 
 
@@ -191,6 +192,31 @@ cd facebash
 chmod +x facebash.sh
 service tor start
 sudo ./facebash.sh
+
+elif [[ $islem == 17 || $islem == 017 ]]; then
+clear
+echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+sleep 3
+cd Tools
+pkg install git
+pkg install python2
+git clone https://github.com/D4RK-4RMY/DARKARMY
+cd DARKARMY
+chmod +x darkarmy.py
+python2 darkarmy.py
+
+elif [[ $islem == 18 || $islem == 018 ]]; then
+clear
+echo -e "\033[47;3;35m Instalimi mund të marrë pak kohe\033[0m"
+sleep 3
+cd Tools
+apt update && apt upgrade 
+pkg install git -y
+pkg install python && pkg install python3 -y
+git clone https://github.com/Nabil-Official/N-ANOM
+pip3 install requests
+cd N-ANOM 
+python3 n-anom.py
 
 else   
 	clear
